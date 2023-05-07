@@ -13,28 +13,28 @@ Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous
 
 ## Sommaire  
 1. [Livrables](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#livrables)    
-2. Matériel requis  
-3. Simulation sur LTSpice  
-4. Kicad  
-  1 Symboles et empreintes de composants  
-  2 Schématique   
-  3 Placement des composants  
-  4 Visualisation 3D  
-5. Fabrication du shield  
-  1 Réalisation du PCB  
-  2 Perçage et soudure de nos composants  
-6. Arduino  
-  1 Bibliothèques utilisées  
-  2 Code Arduino  
-7. Application Android
-8. Banc de test  
-  1 Banc de test  
-  2 Résultats obtenus  
-  3 Analyse des résultats  
-9. Pistes d’améliorations   
-10. Datasheet
+2. [Matériel requis](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#mat%C3%A9riel-requis)  
+3. [Simulation sur LTSpice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#simulation-sur-ltspice)  
+4. [Kicad](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#kicad)    
+  1 [Symboles et empreintes de composants](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#symboles-et-empreintes-de-composants)  
+  2 [Schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#sch%C3%A9matique)  
+  3 [Placement des composants](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#placement-des-composants)    
+  4 [Visualisation 3D](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#visualisation-3d)  
+5. [Fabrication du shield](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#fabrication-du-shield)    
+  1 [Réalisation du PCB](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#r%C3%A9alisation-du-pcb)    
+  2 [Perçage et soudure de nos composants](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#per%C3%A7age-et-soudure-de-nos-composants)    
+6. [Arduino](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#arduino)    
+  1 [Bibliothèques utilisées](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#biblioth%C3%A8ques-utilis%C3%A9es)    
+  2 [Code Arduino](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#code-arduino)    
+7. [Application Android](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#application-android)  
+8. [Banc de test](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#banc-de-test)    
+  1 [Banc de test](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#banc-de-test-1)    
+  2 [Résultats obtenus](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#r%C3%A9sultats-obtenus)    
+  3 [Analyse des résultats](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#analyse-des-r%C3%A9sultats)    
+9. [Pistes d’améliorations](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#pistes-dam%C3%A9liorations)     
+10. [Datasheet](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#datasheet)   
 
-## Livrables  
+## 1. Livrables  
 Voici l’ensemble des livrables du projet :  
 - Une carte PCB se connectant à un module Arduino UNO contenant un amplification transimpédance, un module Bluetooth, un écran OLED et un Flex sensor  
 -	Un code Arduino permettant de mesurer la déformation du capteur et de piloter un module Bluetooth, un écran OLED et un Flex sensor  
@@ -53,7 +53,7 @@ Par la suite nous avons mis en place un banc de test pour caractériser notre ca
 Pour finir nous avons réalisé une datasheet à l’aide des résultats obtenus par le banc de test.   
 
 
-## Matériel requis
+## 2. Matériel requis
 
 Voici la liste des composants nécessaires à l’élaboration de notre capteur   
 
@@ -70,7 +70,7 @@ Voici la liste des composants nécessaires à l’élaboration de notre capteur
 -	1 feuille de papier  
 -	3 crayon de papier : HB, B  
 
-## Simulation sur LTspice 
+## 3. Simulation sur LTspice 
 
 Le capteur graphique que nous souhaitons réalisé est alimenté en 5V et sa résistance fluctue entre 20 et 100MΩ, ainsi le courant en sortie sera de l’ordre de 100nA (I =U/R). Ce courant de sortie sera trop faible pour être capté par la carte Arduino UNO, c’est pourquoi nous devons utiliser un amplificateur transimpédance, pour amplifier le signal de sortie de notre capteur. 
 
@@ -92,11 +92,11 @@ $R_{Capteur} = (1 + \dfrac{R3}{R2}) \times R1 \times (\dfrac{VCC}{VADC}) - R1 - 
 
 Dans notre code Arduino ainsi que dans notre Kicad, notre R4 est égale au R5 du schéma ci-contre et R5 vaut R6 du schéma.   
 
-## Kicad
+## 4. Kicad
 
 Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commencé par dessiner tous les composants puis nous avons créé leur empreinte.  
 
-### Symboles et empreintes de composants   
+### 4.1 Symboles et empreintes de composants   
 
 - Amplificateur LTC1050  
   
@@ -115,58 +115,58 @@ Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commenc
 ![Bluetooth](https://i.ibb.co/X43873G/image-78.jpg)  
 
 
-### Schématique  
+### 4.2 Schématique  
 
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield.  
 
 ![shield](https://i.ibb.co/GHYRhdF/image-8.jpg)  
 
-### Placement des composants  
+### 4.3 Placement des composants  
 
 ![placementcompo](https://i.ibb.co/cxhrhTQ/image-9.jpg)  
 
-### Visualisation 3D  
+### 4.4 Visualisation 3D  
 
 Nous avons téléchargé les modèles 3D de nos composants afin de visualiser notre PCB en 3D et de vérifier que les composants de la carte ne se chevauchent pas.   
  
 ![3D](https://i.ibb.co/YZMbHvh/image-10.jpg)  
 
-## Fabrication du shield  
+## 5. Fabrication du shield  
 
 ![shield](https://i.ibb.co/KzYj2hT/image-11.jpg)  
 
 ![shield2](https://i.ibb.co/ccb1nLL/image-12.jpg)  
 
-### Réalisation du PCB  
+### 5.1 Réalisation du PCB  
 
 Nous avons réalisé notre PCB avec l’aide de Catherine Crouzet au sein du département du Génie Physique et du Génie Electrique et Informatique de l’INSA Toulouse. Pour fabriquer notre PCB nous avons utilisé une plaquette d’époxy recouverte d’une fine couche de cuivre. Nous avons d’abord imprimé notre modélisation du PCB réalisé sur Kicad. Nous avons ensuite plongé notre plaquette avec notre modélisation imprimée dans une machine insolant des UVs.  
 Notre modélisation imprimée va servir de masque lors de cette insolation sous UVs. A l’aide d’un révélateur, nous avons retiré la partie de la résine non insolée. Nous plongeons ensuite la plaquette dans un bain de perchlorure de fer pour la gravure. Le cuivre non protégé par la résine est éliminé. Pour finir, nous lavons notre plaquette à l’acétone pour éliminer les dernières traces de résine.   
 
 
-### Perçage et soudure de nos composants   
+### 5.2 Perçage et soudure de nos composants   
 
 Nous perçons ensuite notre PCB à l’aide d’une perceuse électrique pour insérer nos composants. Le diamètre de nos percage varie selon le type de composant :   
 -	0,8 mm : pour l’AOP LTC1050, le module OLED, Bluetooth, le Flex sensor, les résistances et les capacités
 -	1,0 mm : pour les broches de connexion de la carte Arduino UNO.  
 Nous avons soudé nos composants sur la face arrière du PCB. Nous avons cependant constaté des courts-circuits sur la carte PCB qui nous ont obligé à souder des fils reliés à la masse sur la face avant de notre PCB.  
 
-## Arduino  
+## 6. Arduino  
 
-### Bibliothèques utilisées    
+### 6.1 Bibliothèques utilisées    
 
 Nous avons utilisé 3 bibliothèques dans notre code Arduino :  
 -	Wire.h : qui s’occupe de la communication avec l’écran OLED ;  
 -	SoftwareSerial.h : pour définir les ports utilisés par le module Bluetooth ;  
 -	Adafruit_SSD1306.h : afin de contrôler notre écran OLED.   
 
-### Code Arduino   
+### 6.2 Code Arduino   
 
 Notre code permet de récupérer la tension à la sortie du capteur et de calculer la valeur de sa résistance. Nous avons rajouté des éléments sur le shield pour faciliter la communication de l’information :    
 -	Un écran OLED : l’écran reçoit la valeur de la résistance (en MΩ) du capteur en continu 
 -	Un module Bluetooth : qui envoie les données à l’application  
 -	Un Flex sensor : dont la valeur de la résistance et la valeur de son angle sont affichés dans le Serial Monitor. Sa présence nous permet de vérifier les démarches réalisées sur le capteur.  
 
-## Application Android   
+## 7. Application Android   
 
 Nous avons créé une application android sur Mit App Inventor que nous avons pu télécharger via le .apk du dossier. 
 Le but de notre application est d’afficher la valeur de la tension de sortie du capteur en continu sur un téléphone Android et de tracer un graphique de la valeur de sa résistance en fonction du temps. C’est l’application qui va calculer la valeur de la résistance du capteur. 
@@ -176,9 +176,9 @@ Notre interface comprend :
 -	La valeur de la tension de sortie du capteur en continu.   
 -	Un graphique affichant la valeur de la résistance de notre capteur en fonction du temps.   
 
-## Banc de test   
+## 8. Banc de test   
 
-### Banc de test   
+### 8.1 Banc de test   
 
 Nous avons testé notre capteur sur un banc de test disponible au Génie Physique de l’INSA Toulouse. Notre banc de test composé de 7 demi cylindres de rayon allant de 2,5cm à 1cm par pas de 0,5cm.   
 
@@ -205,7 +205,7 @@ La contrainte mécanique (compression ou expansion) appliquée au papier va modi
 _Attention : Plus nous utilisons la jauge de contrainte, plus nous l’abîmons. En effet, la quantité de graphite diminue avec le temps à cause du frottement des pinces en métal ou des doigts avec le papier._   
 
 
-### Résultats obtenus  
+### 8.2 Résultats obtenus  
 
 La caractérisation de notre capteur est basé sur la mesure des variations de la résistance dû à la déformation.  
 
@@ -213,26 +213,26 @@ La caractérisation de notre capteur est basé sur la mesure des variations de l
 
 ![graph2](https://i.ibb.co/fnvWkZj/image-18.jpg)  
 
-### Analyse des résultats   
+### 8.3 Analyse des résultats   
 
 Les résultats obtenus semblent cohérents. En effet, on observe bien une résistance qui diminue lorsqu’on applique une compression au capteur. Par conséquent ΔR (=R-R0) diminue plus la déformation est grande. Et à l’inverse on observe une résistance grandissante lorsqu’on applique une expansion à notre capteur. Par conséquent ΔR (=R-R0) augmente plus la déformation est importante.  
 
 De plus, en fonction du type de crayon utilisé, les variations de résistances changent. En effet, si un crayon est considéré comme gras c’est qu’il dépose plus de graphite sur le papier. Par conséquent le courant aura plus de facilité à passer et donc la résistance sera plus faible. Ainsi nous pouvons constater que les crayons de type B sont plus gras que les crayons de type HB.   
 
-### Comparaison avec le flex sensor  
+### 8.4 Comparaison avec le flex sensor  
 
 ![graph3](https://i.ibb.co/wcsc2yq/image-19.jpg)  
 
 Nous avons analysé la variation de la résistance du flex sensor pour le comparer avec notre capteur. Nous pouvons constater que le flex sensor possède une valeur de résistance plus importante que notre capteur de graphite.   
 
-## Pistes d'améliorations 
+## 9. Pistes d'améliorations 
 
 Certains points de notre banc de test peuvent être remis en question :  
 -	Le dépôts de graphite est difficile à maîtriser. Par conséquent il est impossible de créer plusieurs jauge de contraintes identiques. De plus, la quantité de graphite diminue avec le temps à cause du frottement des pinces en métal ou des doigts avec le papier.  
 -	Nous aurions pu rajouter sur notre shield un potentiomètre digital qui nous aurait permis de pouvoir analyser une gamme de résistance plus grande.   
 
 
-## Datasheet  
+## 10. Datasheet  
 
 La datasheet de notre capteur est disponible ici.  
 
