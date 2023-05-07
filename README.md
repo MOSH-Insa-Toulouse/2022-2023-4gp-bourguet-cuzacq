@@ -108,7 +108,7 @@ Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commenc
 
 - Flex sensor  
 
-![Flex](https://i.ibb.co/BrD0GSZ/image-6.jpg)  
+![Flex](https://i.ibb.co/BrD0GSZ/image-6.jpg)   
 
 - Module Bluetooth HC05  
 
