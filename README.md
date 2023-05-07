@@ -188,9 +188,10 @@ Nous avons testé notre capteur sur un banc de test disponible au Génie Physiqu
 
 En enrobant les cylindres avec notre capteur, nous créons une déformation que nous pouvons calculer avec la formule :   
 
-$\epsilon = \dfrac{e}{2 \times RR_{Capteur}}$   
+$\epsilon = \dfrac{e}{2 \times R_{Capteur}}$   
 
-avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : θ  
+avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : \theta   
+
 
 
 
