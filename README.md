@@ -192,7 +192,7 @@ $\epsilon = \dfrac{e}{2 \times R_{Capteur}}$
 
 avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : θ  
 
-et $R_{Capteur} = \dfrac{d}{2 \times θ$  
+et $R_{Capteur} = \dfrac{d}{2 \times θ}$  
 
 
 
