@@ -76,5 +76,19 @@ Le capteur graphique que nous souhaitons réalisé est alimenté en 5V et sa ré
 
 Ce montage gère à la fois l’amplification et le filtrage du signal pour limiter l’amplification du bruit.
 
+![Circuit](https://i.ibb.co/0jgdCKz/image-3.jpg)  
+
+Voici la fonction des différents composants :
+  - R5 en entrée protège l'ampli opérationnel contre les décharges électrostatiques, en forme avec C1 un filtre pour les bruits en tension  
+  - C1 avec R1 forme un filtre pour le bruit en courant  
+  - R2 sera interchangeable, pour permettre une adaptation du calibre  
+  - C4 avec R3 forme un filtre actif  
+  - C2 avec R6 forme le filtre de sortie  
+  - C3 filtre le bruit d'alimentation  
+  
+On peut calculer la résistance du capteur grâce à la formule :
+
+	$R_{Capteur}$ = (1 +  $\frac{R3}{R2}$) * R1 * ( $\frac{VCC}{VADC}$ ) - R1 - R5  
+
 
 
