@@ -14,17 +14,17 @@ Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous
 1. Livrables  
 2. Matériel requis  
 3. Simulation sur LTSpice  
-4 Kicad  
-  1. Symboles et empreintes de composants  
-  2. Schématique   
-  3. Placement des composants  
-  4. Visualisation 3D  
+4. Kicad  
+  1 Symboles et empreintes de composants  
+  2 Schématique   
+  3 Placement des composants  
+  4 Visualisation 3D  
 5. Fabrication du shield  
-  1. Réalisation du PCB  
-  2. Perçage et soudure de nos composants  
+  1 Réalisation du PCB  
+  2 Perçage et soudure de nos composants  
 6. Arduino
-  1. Bibliothèques utilisées  
-  2. Code Arduino  
+  1 Bibliothèques utilisées  
+  2 Code Arduino  
 7. Application Android
 8. Banc de test  
   1 Banc de test  
