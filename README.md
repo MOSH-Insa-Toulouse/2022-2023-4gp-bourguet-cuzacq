@@ -190,7 +190,10 @@ En enrobant les cylindres avec notre capteur, nous créons une déformation que 
 
 $\epsilon = \dfrac{e}{2 \times R_{Capteur}}$   
 
-avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : \theta   
+avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : θ  
+
+et $R_{Capteur} = \dfrac{d}{2 \times θ$  
+
 
 
 
