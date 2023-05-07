@@ -55,5 +55,23 @@ Pour finir nous avons réalisé une datasheet à l’aide des résultats obtenus
 
 ## Matériel requis
 
+Voici la liste des composants nécessaires à l’élaboration de notre capteur   
+
+-	2 résistances 100kΩ (R1 et R3)    
+-	1 résistance 10kΩ (R5) (R4 sur notre Kicad)  
+-	2 résistances 1kΩ (R2 et R6) (R2 et R5 sur notre Kicad)  
+-	1 résistance de 33kΩ (Rflex)  
+-	1 capacité 1µF (C4)  
+-	2 capacités 100nF (C1 et C2)   
+-	1 amplificateur opérationnel LTC1050  
+-	1 module Bluetooth HC05   
+-	1 écran OLE I2C 0.91  
+-	1 Flex sensor   
+-	1 feuille de papier  
+-	3 crayon de papier : HB, B  
+
+## Simulation sur LTspice 
+
+
 
 
