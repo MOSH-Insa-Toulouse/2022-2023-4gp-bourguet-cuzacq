@@ -8,7 +8,6 @@ Pour ce capteur nous utilisons une feuille sur laquelle nous avons dessiner au c
 
 
 ![Capteur1](https://i.ibb.co/N14nvj2/image-1.jpg)
-![Capteur2](https://i.ibb.co/LS1qTXC/image-2.jpg)  
 
 Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous.  
 
