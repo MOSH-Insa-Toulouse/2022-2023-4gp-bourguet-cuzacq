@@ -1,4 +1,4 @@
-# Projet Catpeur de Solène Bourguet et Victor Cuzacq (4A GP INSA)  
+# Projet Capteur de Solène Bourguet et Victor Cuzacq
 _Ce projet s’inscrit dans le contexte de l’UF « Du capteur au band de test en open source hardware » du département de Génie Physique de l’INSA Toulouse._  
 
 ## Objectif :  
@@ -12,7 +12,7 @@ Pour ce capteur nous utilisons une feuille sur laquelle nous avons dessiner au c
 Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous.  
 
 ## Sommaire  
-1. Livrables  
+1. [Livrables](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#livrables)    
 2. Matériel requis  
 3. Simulation sur LTSpice  
 4. Kicad  
@@ -72,6 +72,9 @@ Voici la liste des composants nécessaires à l’élaboration de notre capteur
 
 ## Simulation sur LTspice 
 
+Le capteur graphique que nous souhaitons réalisé est alimenté en 5V et sa résistance fluctue entre 20 et 100MΩ, ainsi le courant en sortie sera de l’ordre de 100nA (I =U/R). Ce courant de sortie sera trop faible pour être capté par la carte Arduino UNO, c’est pourquoi nous devons utiliser un amplificateur transimpédance, pour amplifier le signal de sortie de notre capteur. 
+
+Ce montage gère à la fois l’amplification et le filtrage du signal pour limiter l’amplification du bruit.
 
 
 
