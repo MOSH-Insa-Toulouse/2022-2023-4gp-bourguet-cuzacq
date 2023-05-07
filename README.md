@@ -12,10 +12,10 @@ Pour ce capteur nous utilisons une feuille sur laquelle nous avons dessiner au c
 Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous.  
 
 ## Sommaire  
-1. [Livrables](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#livrables)    
-2. [Matériel requis](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#mat%C3%A9riel-requis)  
-3. [Simulation sur LTSpice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#simulation-sur-ltspice)  
-4. [Kicad](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#kicad)    
+1. [Livrables](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#1-livrables)    
+2. [Matériel requis](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#2-mat%C3%A9riel-requis)  
+3. [Simulation sur LTSpice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#3-simulation-sur-ltspice)  
+4. [Kicad](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#4-kicad)    
   1 [Symboles et empreintes de composants](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#symboles-et-empreintes-de-composants)  
   2 [Schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#sch%C3%A9matique)  
   3 [Placement des composants](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq#placement-des-composants)    
