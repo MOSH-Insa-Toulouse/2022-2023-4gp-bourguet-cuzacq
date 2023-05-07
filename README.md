@@ -8,3 +8,31 @@ Pour ce capteur nous utilisons une feuille sur laquelle nous avons dessiner au c
 
 ![Capteur1](https://i.ibb.co/DMG7h8b/imag12.png)  
 
+Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous.  
+
+## Sommaire  
+1. Livrables  
+2. Matériel requis  
+3. Simulation sur LTSpice  
+4 Kicad  
+  1. Symboles et empreintes de composants  
+  2. Schématique   
+  3. Placement des composants  
+  4. Visualisation 3D  
+5. Fabrication du shield  
+  1. Réalisation du PCB  
+  2. Perçage et soudure de nos composants  
+6. Arduino
+  1. Bibliothèques utilisées  
+  2. Code Arduino  
+7. Application Android
+8. Banc de test  
+  1 Banc de test  
+  2 Résultats obtenus  
+  3 Analyse des résultats  
+9. Pistes d’améliorations   
+10. Datasheet
+
+
+
+
