@@ -33,6 +33,21 @@ Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous
 9. Pistes d’améliorations   
 10. Datasheet
 
+## Livrables  
+Voici l’ensemble des livrables du projet :  
+- Une carte PCB se connectant à un module Arduino UNO contenant un amplification transimpédance, un module Bluetooth, un écran OLED et un Flex sensor  
+-	Un code Arduino permettant de mesurer la déformation du capteur et de piloter un module Bluetooth, un écran OLED et un Flex sensor  
+-	Une application Android APK  
+-	Un protocole de test (simulation sous LTspice + banc de test ?)  
+-	La datasheet du capteur de déformation  
+
+
+Nous avons commencé par réaliser la modélisation de notre shield sur le logiciel Kicad. Il contient ainsi un amplificateur transimpédance, un écran OLED, un module Bluetooth et un Flex sensor. Nous avons ensuite fabriqué par lithographie notre carte PCB et ajouté les composants par soudage sur la carte après l’avoir percée au préalable. 
+Nous avons réalisé un code Arduino permettant de mesurer la variation de résistance du capteur et de piloter un module Bluetooth, un écran OLED et un Flex sensor.  
+En parallèle de cela, nous avons créé une application Android grâce au logiciel MIT App Inventor, capable de communiquer avec le module Bluetooth et recevoir la valeur de la tension de sortie et de calculer les valeurs de résistances de notre capteur.  
+Par la suite nous avons mis en place un banc de test pour caractériser notre capteur en fonction de sa déformation et de la mine de crayon utilisée (HB, B).   
+Pour finir nous avons réalisé une datasheet à l’aide des résultats obtenus par le banc de test.   
+
 
 
 
