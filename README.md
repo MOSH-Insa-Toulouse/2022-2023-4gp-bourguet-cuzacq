@@ -88,5 +88,34 @@ Voici la fonction des différents composants :
   
 On peut calculer la résistance du capteur grâce à la formule :
 
-   $R_{Capteur} = (1 + \dfrac{R3}{R2}) \times R1 \times (\dfrac{VCC}{VADC}) - R1 - R5$  
+$R_{Capteur} = (1 + \dfrac{R3}{R2}) \times R1 \times (\dfrac{VCC}{VADC}) - R1 - R5$  
+
+Dans notre code Arduino ainsi que dans notre Kicad, notre R4 est égale au R5 du schéma ci-contre et R5 vaut R6 du schéma.   
+
+## Kicad
+
+Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commencé par dessiner tous les composants puis nous avons créé leur empreinte.  
+
+### Symboles et empreintes de composants   
+
+  -Amplificateur LTC1050  
+  
+![Ampli](https://i.ibb.co/G98bGdG/image-4.jpg)  
+
+  -Ecran OLED
+
+![Ampli](https://i.ibb.co/0DTwwZ9/image-5.jpg)  
+
+  -Flex sensor
+
+![Ampli](https://i.ibb.co/BrD0GSZ/image-6.jpg)  
+
+  -Module Bluetooth HC05
+
+![Ampli](https://i.ibb.co/X43873G/image-78.jpg)  
+
+
+
+
+
 
