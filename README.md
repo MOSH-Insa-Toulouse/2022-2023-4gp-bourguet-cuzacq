@@ -88,9 +88,5 @@ Voici la fonction des différents composants :
   
 On peut calculer la résistance du capteur grâce à la formule :
 
-	$  R_{Capteur}  $   
-	
-	= (1 +  $$\frac{R3}{R2}$$) * R1 * ( $\frac{VCC}{VADC}$ ) - R1 - R5  
-
-$(5 + 3\times 8 - (1 + 35 \div 5))(18 - 5 \times 2)$   
+$R_{Capteur} = (1 + \dfrac{R3}{R2}) \times R1 \times (\dfrac{VCC}{VADC}) - R1 - R5$  
 
