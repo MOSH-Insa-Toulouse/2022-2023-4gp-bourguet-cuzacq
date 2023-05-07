@@ -183,8 +183,8 @@ Notre interface comprend :
 Nous avons testé notre capteur sur un banc de test disponible au Génie Physique de l’INSA Toulouse. Notre banc de test composé de 7 demi cylindres de rayon allant de 2,5cm à 1cm par pas de 0,5cm.   
 
 ![banc1](https://i.ibb.co/VHXMhRr/image-13.jpg)  
-![banc1](https://i.ibb.co/ygxqRcG/image-14.jpg)  
-![banc1](https://i.ibb.co/3m3R9xC/image-15.jpg)  
+![banc2](https://i.ibb.co/ygxqRcG/image-14.jpg)  
+![banc3](https://i.ibb.co/3m3R9xC/image-15.jpg)  
 
 En enrobant les cylindres avec notre capteur, nous créons une déformation que nous pouvons calculer avec la formule :   
 
@@ -194,16 +194,56 @@ avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : θ
 
 et $R_{Capteur} = \dfrac{d}{2 \times θ}$  
 
+![explication](https://i.ibb.co/F5yfk21/image-16.jpg)  
+
+![explication2](https://i.ibb.co/G7R1Z4V/image-2.jpg)  
+
+La contrainte mécanique (compression ou expansion) appliquée au papier va modifier la distance entre les particules de graphite et donc la résistance au passage du courant :  
+-	Lorsque l’on enrobe le cylindre avec la face recouverte de graphite vers le haut, nous appliquons une tension ou expansion à notre papier, ainsi les particules de graphite se retrouve plus éloignées. Par conséquent le courant circule moins facilement et la valeur de la résistance augmente.   
+-	A l’inverse, lorsque l’on enrobe le cylindre avec la face recouverte de graphite contre le cylindre, nous appliquons une compression à notre papier, ainsi les particules de graphite se rapprochent. Par conséquent le courant circule plus facilement et la valeur de la résistance diminue.   
+
+_Attention : Plus nous utilisons la jauge de contrainte, plus nous l’abîmons. En effet, la quantité de graphite diminue avec le temps à cause du frottement des pinces en métal ou des doigts avec le papier._   
 
 
+### Résultats obtenus  
+
+La caractérisation de notre capteur est basé sur la mesure des variations de la résistance dû à la déformation.  
+
+![graph1](https://i.ibb.co/R7rbQJk/image-17.jpg)
+
+![graph2](https://i.ibb.co/fnvWkZj/image-18.jpg)  
+
+### Analyse des résultats   
+
+Les résultats obtenus semblent cohérents. En effet, on observe bien une résistance qui diminue lorsqu’on applique une compression au capteur. Par conséquent ΔR (=R-R0) diminue plus la déformation est grande. Et à l’inverse on observe une résistance grandissante lorsqu’on applique une expansion à notre capteur. Par conséquent ΔR (=R-R0) augmente plus la déformation est importante.  
+
+De plus, en fonction du type de crayon utilisé, les variations de résistances changent. En effet, si un crayon est considéré comme gras c’est qu’il dépose plus de graphite sur le papier. Par conséquent le courant aura plus de facilité à passer et donc la résistance sera plus faible. Ainsi nous pouvons constater que les crayons de type B sont plus gras que les crayons de type HB.   
+
+### Comparaison avec le flex sensor  
+
+![graph3](https://i.ibb.co/wcsc2yq/image-19.jpg)  
+
+Nous avons analysé la variation de la résistance du flex sensor pour le comparer avec notre capteur. Nous pouvons constater que le flex sensor possède une valeur de résistance plus importante que notre capteur de graphite.   
+
+## Pistes d'améliorations 
+
+Certains points de notre banc de test peuvent être remis en question :  
+-	Le dépôts de graphite est difficile à maîtriser. Par conséquent il est impossible de créer plusieurs jauge de contraintes identiques. De plus, la quantité de graphite diminue avec le temps à cause du frottement des pinces en métal ou des doigts avec le papier.  
+-	Nous aurions pu rajouter sur notre shield un potentiomètre digital qui nous aurait permis de pouvoir analyser une gamme de résistance plus grande.   
 
 
+## Datasheet  
+
+La datasheet de notre capteur est disponible ici.  
 
 
+### Remerciement et contact 
 
+Nous souhaiterions remercier Catherine Crouzet qui nous a beaucoup aidé à comprendre et à solutionner nos problèmes tout au long du projet.  
 
-
-
+Pour toutes questions ou informations supplémentaires, vous pouvez nous contacter par mail :  
+-	Solène BOURGUET : bourguet@insa-toulouse.fr   
+-	Victor CUZACQ : cuzacq@insa-toulouse.fr   
 
 
 
