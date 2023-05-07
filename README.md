@@ -98,19 +98,19 @@ Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commenc
 
 ### Symboles et empreintes de composants   
 
-  -Amplificateur LTC1050  
+- Amplificateur LTC1050  
   
 ![Ampli](https://i.ibb.co/G98bGdG/image-4.jpg)  
 
-  -Ecran OLED
+- Ecran OLED  
 
 ![Ampli](https://i.ibb.co/0DTwwZ9/image-5.jpg)  
 
-  -Flex sensor
+- Flex sensor  
 
 ![Ampli](https://i.ibb.co/BrD0GSZ/image-6.jpg)  
 
-  -Module Bluetooth HC05
+- Module Bluetooth HC05  
 
 ![Ampli](https://i.ibb.co/X43873G/image-78.jpg)  
 
