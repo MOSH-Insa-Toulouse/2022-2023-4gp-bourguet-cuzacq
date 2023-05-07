@@ -104,18 +104,89 @@ Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commenc
 
 - Ecran OLED  
 
-![Ampli](https://i.ibb.co/0DTwwZ9/image-5.jpg)  
+![OLED](https://i.ibb.co/0DTwwZ9/image-5.jpg)  
 
 - Flex sensor  
 
-![Ampli](https://i.ibb.co/BrD0GSZ/image-6.jpg)  
+![Flex](https://i.ibb.co/BrD0GSZ/image-6.jpg)  
 
 - Module Bluetooth HC05  
 
-![Ampli](https://i.ibb.co/X43873G/image-78.jpg)  
+![Bluetooth](https://i.ibb.co/X43873G/image-78.jpg)  
 
 
+### Schématique  
 
+Une fois les empreintes créées, nous avons réalisé le schéma de notre shield.  
+
+![shield](https://i.ibb.co/GHYRhdF/image-8.jpg)  
+
+### Placement des composants  
+
+![placementcompo](https://i.ibb.co/cxhrhTQ/image-9.jpg)  
+
+### Visualisation 3D  
+
+Nous avons téléchargé les modèles 3D de nos composants afin de visualiser notre PCB en 3D et de vérifier que les composants de la carte ne se chevauchent pas.   
+ 
+![3D](https://i.ibb.co/YZMbHvh/image-10.jpg)  
+
+## Fabrication du shield  
+
+![shield](https://i.ibb.co/KzYj2hT/image-11.jpg)  
+
+![shield2](https://i.ibb.co/ccb1nLL/image-12.jpg)  
+
+### Réalisation du PCB  
+
+Nous avons réalisé notre PCB avec l’aide de Catherine Crouzet au sein du département du Génie Physique et du Génie Electrique et Informatique de l’INSA Toulouse. Pour fabriquer notre PCB nous avons utilisé une plaquette d’époxy recouverte d’une fine couche de cuivre. Nous avons d’abord imprimé notre modélisation du PCB réalisé sur Kicad. Nous avons ensuite plongé notre plaquette avec notre modélisation imprimée dans une machine insolant des UVs.  
+Notre modélisation imprimée va servir de masque lors de cette insolation sous UVs. A l’aide d’un révélateur, nous avons retiré la partie de la résine non insolée. Nous plongeons ensuite la plaquette dans un bain de perchlorure de fer pour la gravure. Le cuivre non protégé par la résine est éliminé. Pour finir, nous lavons notre plaquette à l’acétone pour éliminer les dernières traces de résine.   
+
+
+### Perçage et soudure de nos composants   
+
+Nous perçons ensuite notre PCB à l’aide d’une perceuse électrique pour insérer nos composants. Le diamètre de nos percage varie selon le type de composant :   
+-	0,8 mm : pour l’AOP LTC1050, le module OLED, Bluetooth, le Flex sensor, les résistances et les capacités
+-	1,0 mm : pour les broches de connexion de la carte Arduino UNO.  
+Nous avons soudé nos composants sur la face arrière du PCB. Nous avons cependant constaté des courts-circuits sur la carte PCB qui nous ont obligé à souder des fils reliés à la masse sur la face avant de notre PCB.  
+
+## Arduino  
+
+### Bibliothèques utilisées    
+
+Nous avons utilisé 3 bibliothèques dans notre code Arduino :  
+-	Wire.h : qui s’occupe de la communication avec l’écran OLED ;  
+-	SoftwareSerial.h : pour définir les ports utilisés par le module Bluetooth ;  
+-	Adafruit_SSD1306.h : afin de contrôler notre écran OLED.   
+
+### Code Arduino   
+
+Notre code permet de récupérer la tension à la sortie du capteur et de calculer la valeur de sa résistance. Nous avons rajouté des éléments sur le shield pour faciliter la communication de l’information :    
+-	Un écran OLED : l’écran reçoit la valeur de la résistance (en MΩ) du capteur en continu 
+-	Un module Bluetooth : qui envoie les données à l’application  
+-	Un Flex sensor : dont la valeur de la résistance et la valeur de son angle sont affichés dans le Serial Monitor. Sa présence nous permet de vérifier les démarches réalisées sur le capteur.  
+
+## Application Android   
+
+Nous avons créé une application android sur Mit App Inventor que nous avons pu télécharger via le .apk du dossier. 
+Le but de notre application est d’afficher la valeur de la tension de sortie du capteur en continu sur un téléphone Android et de tracer un graphique de la valeur de sa résistance en fonction du temps. C’est l’application qui va calculer la valeur de la résistance du capteur. 
+Notre interface comprend :  
+-	Un bouton connexion au Bluetooth de notre shield. Il devient vert quand la connexion est établie et grise quand elle ne l’est pas.   
+-	Un bouton déconnexion au Bluetooth. Il devient rouge quand on appuie dessus.  
+-	La valeur de la tension de sortie du capteur en continu.   
+-	Un graphique affichant la valeur de la résistance de notre capteur en fonction du temps.   
+
+## Banc de test   
+
+### Banc de test   
+
+Nous avons testé notre capteur sur un banc de test disponible au Génie Physique de l’INSA Toulouse. Notre banc de test composé de 7 demi cylindres de rayon allant de 2,5cm à 1cm par pas de 0,5cm.   
+
+![banc1](https://i.ibb.co/VHXMhRr/image-13.jpg)  
+![banc1](https://i.ibb.co/ygxqRcG/image-14.jpg)  
+![banc1](https://i.ibb.co/3m3R9xC/image-15.jpg)  
+
+En enrobant les cylindres avec notre capteur, nous créons une déformation que nous pouvons calculer avec la formule :   
 
 
 
