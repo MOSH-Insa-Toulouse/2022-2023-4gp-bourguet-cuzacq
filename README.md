@@ -92,5 +92,5 @@ On peut calculer la résistance du capteur grâce à la formule :
 	
 	= (1 +  $$\frac{R3}{R2}$$) * R1 * ( $\frac{VCC}{VADC}$ ) - R1 - R5  
 
-
+$[5 + 3\times 8 - (1 + 35 \div 5)](18 - 5 \times 2)$   
 
