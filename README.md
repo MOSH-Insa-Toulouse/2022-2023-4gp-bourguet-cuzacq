@@ -22,7 +22,7 @@ Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous
 5. Fabrication du shield  
   1 Réalisation du PCB  
   2 Perçage et soudure de nos composants  
-6. Arduino
+6. Arduino  
   1 Bibliothèques utilisées  
   2 Code Arduino  
 7. Application Android
@@ -32,6 +32,7 @@ Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous
   3 Analyse des résultats  
 9. Pistes d’améliorations   
 10. Datasheet
+
 
 
 
