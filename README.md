@@ -7,7 +7,8 @@ Ce projet se base sur les travaux des chercheurs : Cheng-Wen Lin, Zhibo Zhao, Ja
 Pour ce capteur nous utilisons une feuille sur laquelle nous avons dessiner au crayon de papier. La contrainte mécanique appliquée sur la feuille va ainsi modifier la distance entre les particules de graphique et par conséquent la résistance au passage du courant.  
 
 
-![Capteur1](https://i.ibb.co/DMG7h8b/imag12.png)  
+![Capteur1](https://i.ibb.co/DMG7h8b/imag12.png)
+![Capteur2](https://i.ibb.co/LS1qTXC/image-2.jpg)  
 
 Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous.  
 
