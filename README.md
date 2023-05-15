@@ -234,7 +234,7 @@ Certains points de notre banc de test peuvent être remis en question :
 
 ## 10. Datasheet  
 
-La datasheet de notre capteur est disponible ici.  
+La datasheet de notre capteur est disponible [ICI](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/Datasheet/Datasheet_low_tech_graphitr_based_on_strain_sensor.pdf).  
 
 
 ### Remerciement et contact 
