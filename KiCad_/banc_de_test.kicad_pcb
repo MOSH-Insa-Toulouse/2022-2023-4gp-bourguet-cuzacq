@@ -1060,7 +1060,7 @@
     (fp_line (start -5 -5.01) (end 5 -5.01) (layer "F.CrtYd") (width 0.05) (tstamp 54346db7-dda5-443c-b492-fb555db1ade1))
     (fp_line (start 5 5.01) (end -5 5.01) (layer "F.CrtYd") (width 0.05) (tstamp 783006d5-f272-449c-8a2f-408af1d40274))
     (fp_line (start 5 -5.01) (end 5 5.01) (layer "F.CrtYd") (width 0.05) (tstamp 8372b91f-73bb-4918-9cd0-f7abd8c31371))
-    (pad "1" thru_hole circle (at -3.81 3.76 270) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at -3.81 3.76 270) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 33 "unconnected-(L1-Pad1)") (pintype "bidirectional") (tstamp 39153c20-3e53-43f7-861d-d58a888f136d))
     (pad "2" thru_hole circle (at -1.27 3.76 270) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 31 "Net-(C4-Pad1)") (pinfunction "-IN") (pintype "bidirectional") (tstamp 179aa19f-f80f-4833-987b-9fc3bb27495a))
@@ -1074,7 +1074,7 @@
       (net 32 "Net-(C4-Pad2)") (pintype "bidirectional") (tstamp 4d0dd52b-bcec-43b9-893e-2628903a0af3))
     (pad "7" thru_hole circle (at -1.27 -3.76 270) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 "+5V") (pinfunction "V+") (pintype "bidirectional") (tstamp 40ce724c-b0d1-42db-917c-a7014a2e3e4f))
-    (pad "8" thru_hole rect (at -3.81 -3.76 270) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "8" thru_hole circle (at -3.81 -3.76 270) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 35 "unconnected-(L1-Pad8)") (pintype "bidirectional") (tstamp 0c3052d4-b414-481f-90b3-0eaac424c63b))
   )
 
