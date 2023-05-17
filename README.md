@@ -83,8 +83,7 @@ Voici la fonction des différents composants :
   - C1 avec R1 forme un filtre pour le bruit en courant  
   - R2 sera interchangeable, pour permettre une adaptation du calibre  
   - C4 avec R3 forme un filtre actif  
-  - C2 avec R6 forme le filtre de sortie  
-  - C3 filtre le bruit d'alimentation  
+  - C2 avec R6 forme le filtre de sortie 
   
 On peut calculer la résistance du capteur grâce à la formule :
 
