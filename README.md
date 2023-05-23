@@ -103,7 +103,7 @@ Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commenc
 
 - Ecran OLED  
 
-![OLED](![image](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/assets/123974749/09e4a31a-6486-44ba-bfba-36fdb46bc8d2)
+![OLED](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/assets/123974749/09e4a31a-6486-44ba-bfba-36fdb46bc8d2)
   
 
 - Flex sensor  
@@ -184,7 +184,6 @@ Nous avons testé notre capteur sur un banc de test disponible au Génie Physiqu
 
 ![banc1](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2013.jpg?raw=true)  
 ![banc2](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2014.jpg?raw=true)  
-![banc3](https://i.ibb.co/3m3R9xC/image-15.jpg)  
 
 En enrobant les cylindres avec notre capteur, nous créons une déformation que nous pouvons calculer avec la formule :   
 
