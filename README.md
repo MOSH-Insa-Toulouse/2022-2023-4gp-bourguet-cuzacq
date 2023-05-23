@@ -7,7 +7,7 @@ Ce projet se base sur les travaux des chercheurs : Cheng-Wen Lin, Zhibo Zhao, Ja
 Pour ce capteur nous utilisons une feuille sur laquelle nous avons dessiner au crayon de papier. La contrainte mécanique appliquée sur la feuille va ainsi modifier la distance entre les particules de graphique et par conséquent la résistance au passage du courant.  
 
 
-![Capteur1](https://i.ibb.co/N14nvj2/image-1.jpg)
+![Capteur1](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%201.jpg?raw=true)
 
 Les étapes et le matériel nécessaire à ce projet sont détaillés ci-dessous.  
 
@@ -76,7 +76,7 @@ Le capteur graphique que nous souhaitons réalisé est alimenté en 5V et sa ré
 
 Ce montage gère à la fois l’amplification et le filtrage du signal pour limiter l’amplification du bruit.
 
-![Circuit](https://i.ibb.co/0jgdCKz/image-3.jpg)  
+![Circuit](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%203.jpg?raw=true)  
 
 Voici la fonction des différents composants :
   - R5 en entrée protège l'ampli opérationnel contre les décharges électrostatiques, en forme avec C1 un filtre pour les bruits en tension  
@@ -99,42 +99,43 @@ Nous avons modélisé notre shield PCB sur le logiciel KICAD. Nous avons commenc
 
 - Amplificateur LTC1050  
   
-![Ampli](https://i.ibb.co/G98bGdG/image-4.jpg)  
+![Ampli](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%204.jpg?raw=true)  
 
 - Ecran OLED  
 
-![OLED](https://i.ibb.co/0DTwwZ9/image-5.jpg)  
+![OLED](![image](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/assets/123974749/09e4a31a-6486-44ba-bfba-36fdb46bc8d2)
+  
 
 - Flex sensor  
 
-![Flex](https://i.ibb.co/BrD0GSZ/image-6.jpg)   
+![Flex](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%206.jpg?raw=true)   
 
 - Module Bluetooth HC05  
 
-![Bluetooth](https://i.ibb.co/X43873G/image-78.jpg)  
+![Bluetooth](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2078.jpg?raw=true)  
 
 
 ### 4.2 Schématique  
 
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield.  
 
-![shield](https://i.ibb.co/GHYRhdF/image-8.jpg)  
+![shield](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%208.jpg?raw=true)  
 
 ### 4.3 Placement des composants  
 
-![placementcompo](https://i.ibb.co/cxhrhTQ/image-9.jpg)  
+![placementcompo](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%209.jpg?raw=true)  
 
 ### 4.4 Visualisation 3D  
 
 Nous avons téléchargé les modèles 3D de nos composants afin de visualiser notre PCB en 3D et de vérifier que les composants de la carte ne se chevauchent pas.   
  
-![3D](https://i.ibb.co/YZMbHvh/image-10.jpg)  
+![3D](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2010.jpg?raw=true)  
 
 ## 5. Fabrication du shield  
 
-![shield](https://i.ibb.co/KzYj2hT/image-11.jpg)  
+![shield](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2011.jpg?raw=true)  
 
-![shield2](https://i.ibb.co/ccb1nLL/image-12.jpg)  
+![shield2](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2012.jpg?raw=true)  
 
 ### 5.1 Réalisation du PCB  
 
@@ -181,8 +182,8 @@ Notre interface comprend :
 
 Nous avons testé notre capteur sur un banc de test disponible au Génie Physique de l’INSA Toulouse. Notre banc de test composé de 7 demi cylindres de rayon allant de 2,5cm à 1cm par pas de 0,5cm.   
 
-![banc1](https://i.ibb.co/VHXMhRr/image-13.jpg)  
-![banc2](https://i.ibb.co/ygxqRcG/image-14.jpg)  
+![banc1](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2013.jpg?raw=true)  
+![banc2](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2014.jpg?raw=true)  
 ![banc3](https://i.ibb.co/3m3R9xC/image-15.jpg)  
 
 En enrobant les cylindres avec notre capteur, nous créons une déformation que nous pouvons calculer avec la formule :   
@@ -193,9 +194,9 @@ avec l’épaisseur du papier : e = 0,3 mm et l’angle de la deformation : θ
 
 et $R_{Capteur} = \dfrac{d}{2 \times θ}$  
 
-![explication](https://i.ibb.co/F5yfk21/image-16.jpg)  
+![explication](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2016%C2%B5.jpg?raw=true)  
 
-![explication2](https://i.ibb.co/G7R1Z4V/image-2.jpg)  
+![explication2](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%202.jpg?raw=true)  
 
 La contrainte mécanique (compression ou expansion) appliquée au papier va modifier la distance entre les particules de graphite et donc la résistance au passage du courant :  
 -	Lorsque l’on enrobe le cylindre avec la face recouverte de graphite vers le haut, nous appliquons une tension ou expansion à notre papier, ainsi les particules de graphite se retrouve plus éloignées. Par conséquent le courant circule moins facilement et la valeur de la résistance augmente.   
@@ -208,9 +209,9 @@ _Attention : Plus nous utilisons la jauge de contrainte, plus nous l’abîmons.
 
 La caractérisation de notre capteur est basé sur la mesure des variations de la résistance dû à la déformation.  
 
-![graph1](https://i.ibb.co/R7rbQJk/image-17.jpg)
+![graph1](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2018.jpg?raw=true)
 
-![graph2](https://i.ibb.co/fnvWkZj/image-18.jpg)  
+![graph2](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2017.jpg?raw=true)  
 
 ### 8.3 Analyse des résultats   
 
@@ -220,7 +221,7 @@ De plus, en fonction du type de crayon utilisé, les variations de résistances 
 
 ### 8.4 Comparaison avec le flex sensor  
 
-![graph3](https://i.ibb.co/wcsc2yq/image-19.jpg)  
+![graph3](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-bourguet-cuzacq/blob/main/imagesRapport/image%2019.jpg?raw=true)  
 
 Nous avons analysé la variation de la résistance du flex sensor pour le comparer avec notre capteur. Nous pouvons constater que le flex sensor possède une valeur de résistance plus importante que notre capteur de graphite.   
 
